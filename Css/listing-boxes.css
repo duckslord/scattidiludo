@@ -1,0 +1,152 @@
+/*the product box where all product are displayed*/
+.four-boxcontainer{
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	width: 89.5%;
+	margin-left: 5.25%;
+}
+
+.product-box{
+	width: 400px;
+	height: 400px;
+	background: white;
+	margin: 10px;
+	display: inline-table;
+	box-sizing: border-box;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-radius: 10px;
+}
+
+.box-product-image{
+	box-sizing: border-box;
+	border-bottom: 2px solid #000;
+	width: 90%;
+	height: 70%;
+	margin-left: 5%;
+}
+
+.box-product-name{
+	box-sizing: border-box;
+	padding-left: 5%;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.box-features{
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	height: 50px;
+	width: 90%;
+	margin-left: 5%;
+	display: inline-flex;
+	margin-top: -3%;
+}
+
+.box-product-price{
+	box-sizing: border-box;
+	/*border: 1px solid blue;*/
+	height: 100%;
+	width: 25%;
+	margin-top: 0%;
+	font-size: 170%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	background: none;
+}
+
+.box-product-add-to-shopping-cart{
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+	height: 100%;
+	width: 25%;
+	margin-top: 0%;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	background: none;
+}
+
+.box-product-add-to-shopping-cart a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.box-product-add-to-shopping-cart img{
+	width: 30px;
+}
+
+.star-main-container{
+	box-sizing: border-box;
+	/*border: 1px solid gray;*/
+	height: 100%;
+	width: 50%;
+	margin-top: 0%;
+}
+
+.star-subcontainer{
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+	height: 100%;
+	width: 80%;
+	margin-top: 0%;
+	margin-left: 10%;
+}
+
+.star-rating{
+	box-sizing: border-box;
+	/*border: 1px solid purple;*/
+	height: 100%;
+	width: 20%;
+	display: inline-flex;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+
+.star-rating-one{
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+	height: 100%;
+	display: inline-flex;
+	width: 20%;
+	margin-top: 0%;
+	margin-left: -3.1%;
+}
+
+.star-rating-two{
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+	height: 100%;
+	display: inline-flex;
+	width: 20%;
+	margin-top: 0%;
+	margin-left: -3.05%;
+}
+
+.star-rating-three{
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+	height: 100%;
+	display: inline-flex;
+	width: 20%;
+	margin-top: 0%;
+	margin-left: -3.5%;
+}
+
+.star-rating-four{
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+	height: 100%;
+	display: inline-flex;
+	width: 20%;
+	margin-top: 0%;
+	margin-left: -3.1%;
+}
+
+.star-image{
+	width: 30px;
+	height: 30px;
+	padding-top: 25%;
+}

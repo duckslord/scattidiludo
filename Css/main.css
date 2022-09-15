@@ -1,0 +1,279 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inhert}
+/**/
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+
+body{            
+	margin: 0;
+	font-family: arial;
+	background: linear-gradient(#ff7b00,#eeeeee,#eeeeee,#eeeeee);
+    align-items: center;
+	justify-content: center;
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
+    display:block
+}
+
+header {
+	background-color: #03d3fc;
+	background-size: 300px;
+	width: 100%;
+	height: 50px;
+	color: black;
+	border-bottom: 2px solid rgb(255, 115, 0);
+}
+
+.top-box{
+	/*border: 2px solid brown;*/
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+}
+
+h1{
+	box-sizing: border-box;
+	width: 200px;
+	height: 100%;
+	/*border: 2px solid purple;*/
+	margin-top: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 a{
+	text-decoration: none;
+	color: rgb(255, 102, 0);
+}
+
+.search-box{
+	/*border: 2px solid black;*/
+	width: 100%;
+	height: 70%;
+	display: flex;
+	margin-top: 7.5px;
+	margin-left: 0px;
+}
+
+.ac{
+	/*border: 2px solid gray;*/
+	width: 350px;
+	height: 100%;
+	display: flex;
+	margin-top: 0%;
+}
+
+.sub-ac{
+	/*border: 2px solid red;*/
+	width: 100%;
+	height: 100%;
+	margin-top: 0%;
+	display: inline-flex;
+}
+
+.cart-icon{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	margin-top: 0%;
+	justify-content: center;
+	align-items: center;
+}
+ 
+.cart-icon a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart-icon img{
+	width: 35px;
+}
+
+.account-logo{
+	/*border: 2px solid pink;*/
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-top: 0%;
+	justify-content: center;
+	align-items: center;
+}
+
+.account-logo img{
+	width: 27px;
+}
+
+.selling{
+	/*border: 2px solid green;*/
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-top: 0%;
+	justify-content: center;
+	align-items: center;
+}
+
+.selling a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+.search-box-input{
+	font-size: inherit;
+	border: 0.1em solid #ddd;
+    border-radius: 0.5em 0 0 0.5em;
+    padding: 0.4em 0.5em;
+    width: 100%;
+}
+
+.search-box-input:hover{
+	background: rgb(204, 204, 204);
+	color: #000;
+}
+
+.search-box img{
+	width: 20px;
+
+}
+
+.search-box-button{
+	font-size: inherit;
+    border: 0.1em solid #ddd;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: white;
+    border-left: 0;
+    padding: 0 0.75em;
+    color: white;
+}
+
+.search-box-button:hover{
+	cursor: pointer;
+	background: rgb(204, 204, 204);
+}
+
+.first-container{
+	/*border: 2px solid red;*/
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+	background: black;
+	color: #ffffff;
+}
+
+.features figure{
+	text-align: center;
+}
+
+.features figure a img {
+	width: 20%;
+}
+/*------------------------------SLIDE SHOW------------------------------*/
+* {box-sizing: border-box}
+body {margin:0}
+.mySlides {display: none}
+img {vertical-align: middle; max-height: 700px; border-radius: 10px;}
+
+/* Slideshow container */
+.slideshow-container {
+	/*border: 2px solid red;*/
+	max-width: 90%;
+ 	position: relative;
+ 	margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  	background-color: rgba(0,0,0,0.8);
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*------------------------------------------------------------*/
+.footer-line{
+	margin-left: 300px;
+    padding: 20px;
+    display: inline-block;
+}
+/*------------------------------CART LISTING------------------------------*/
+.shop-listing{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 50px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.shop-listing .cross-img{
+	width: 20px;
+}
+
+.shop-header{
+	border-bottom: 2px solid orange;
+	width: 80%;
+	height: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shop-title{
+	margin-left: 0%;
+	font-size: 15px;
+}
+
+.price{
+	margin-left: 15%;
+	font-size: 15px;
+}
+
+.quantity{
+	margin-left: 15%;
+	font-size: 15px;
+}
+
+.total{
+	margin-left: 15%;
+	font-size: 15px;
+}
+
+.product{
+	display: ;
+}

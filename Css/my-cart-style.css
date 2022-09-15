@@ -1,0 +1,262 @@
+body{
+	margin: 0;
+	font-family: arial;
+	background: #eeeeee;
+}
+
+header {
+	background-color: #03d3fc;
+	background-size: 300px;
+	width: 100%;
+	height: 50px;
+	color: black;
+	border-bottom: 2px solid orange;
+}
+
+.top-box{
+	/*border: 2px solid brown;*/
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+}
+
+h1{
+	box-sizing: border-box;
+	width: 200px;
+	height: 100%;
+	/*border: 2px solid purple;*/
+	margin-top: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 a{
+	text-decoration: none;
+	color: #000;
+}
+
+.search-box{
+	/*border: 2px solid black;*/
+	width: 100%;
+	height: 70%;
+	display: flex;
+	margin-top: 7.5px;
+	margin-left: 0px;
+}
+
+.ac{
+	/*border: 2px solid gray;*/
+	width: 350px;
+	height: 100%;
+	display: flex;
+	margin-top: 0%;
+}
+
+.sub-ac{
+	/*border: 2px solid red;*/
+	width: 100%;
+	height: 100%;
+	margin-top: 0%;
+	display: inline-flex;
+}
+
+.cart-icon{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	margin-top: 0%;
+	justify-content: center;
+	align-items: center;
+}
+ 
+.cart-icon a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart-icon img{
+	width: 35px;
+}
+
+.account-logo{
+	/*border: 2px solid pink;*/
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-top: 0%;
+	justify-content: center;
+	align-items: center;
+}
+
+.account-logo img{
+	width: 27px;
+}
+
+.selling{
+	/*border: 2px solid green;*/
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin-top: 0%;
+	justify-content: center;
+	align-items: center;
+}
+
+.selling a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+.search-box-input{
+	font-size: inherit;
+	border: 0.1em solid #ddd;
+    border-radius: 0.5em 0 0 0.5em;
+    padding: 0.4em 0.5em;
+    width: 100%;
+}
+
+.search-box-input:hover{
+	background: rgb(204, 204, 204);
+	color: #000;
+}
+
+.search-box img{
+	width: 20px;
+
+}
+
+.search-box-button{
+	font-size: inherit;
+    border: 0.1em solid #ddd;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: white;
+    border-left: 0;
+    padding: 0 0.75em;
+    color: white;
+}
+
+.search-box-button:hover{
+	cursor: pointer;
+	background: rgb(204, 204, 204);
+}
+
+footer{
+	background: black;
+	color: #ffffff;
+}
+
+.features figure{
+	text-align: center;
+}
+
+.features figure a img {
+	width: 20%;
+}
+/*------------------------------SLIDE SHOW------------------------------*/
+.slide-container{
+	width: 80%;
+	margin: auto;
+	border: 2px solid #000;
+}
+
+.image-container{
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+/*------------------------------------------------------------*/
+.footer-line{
+	margin-left: 300px;
+    padding: 20px;
+	display: inline-block;
+}
+
+
+.shop-listing{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid purple;*/
+}
+
+.big-box{
+	border: 1px solid green;
+	height: 500px;
+}
+
+.product-box{
+	width: 1400px;
+	height: 400px;
+	background: white;
+	margin: 10px;
+	margin-left: 50px;
+	display: inline-block;
+	box-sizing: border-box;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+.box-product-image{
+    /*border: 1px solid red;*/
+    border-radius: 5px;
+    width: 37.5%;
+    height: 80%;
+    margin-top: 0;
+    margin-left: 0%;
+}
+
+.box-product-image img{
+    width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.box-product-name{
+	border-bottom: 1px solid #000000;
+    border-radius: 5px;
+	margin-top: -330px;
+	margin-left: 40%;
+	width: 55%;
+	height: 40px;
+	font-size: 20px;
+}
+
+.box-product-disponibility{
+	/*border: 1px solid red;*/
+	border-radius: 5px;
+	margin-top: 0;
+	margin-left: 40%;
+	width: 55%;
+}
+
+.box-product-quantity{
+	/*border: 1px solid red;*/
+	color: black;
+    border-radius: 5px;
+	margin-top: 0;
+	margin-left: 40%;
+	width: 150px;
+}
+
+#quantity-box{
+	border: 1px solid #000000;
+	color: black;
+    border-radius: 5px;
+	margin-top: 0;
+	margin-left: 10%;
+	width: 30%;
+}
+
+.box-product-price{
+	border: 1px solid red;
+    border-radius: 5px;
+	margin-top: 1%;
+	margin-left: 40%;
+	width: 10%;
+	font-size: 25px;
+}
